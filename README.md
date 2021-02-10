@@ -1,9 +1,8 @@
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/drussel4/NC-Elections-Demographics-Dashboard/HEAD)
-
 # NC-Elections-Demographics-Dashboard
 
 The dashboard is hosted on binder. To launch, click the Binder button and allow 30+ seconds to load, then click <i>Web-Dashboard.ipynb</i>. Finally, <i>Cell > Run All</i> in the toolbar to launch the dashboard.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/drussel4/NC-Elections-Demographics-Dashboard/HEAD)
 
 This project contains a dashboard allowing the user to analyze county-level voting results alongside demographic trends. Use the inputs to specify the data you want to return, then click <i>Update</i> to generate maps, charts, and tables. These demonstrate county level voting patterns and demographic trends. Counties voting more Democratic are shown in blue and Republican are shown in red. Hover over the map uncover demographic data. The bar charts showcases the largest counties in the state (having 100,000+ residents). In the <i>Table</i> tab, use the controls to filter the tables in place. All data is downloadable and verifiable via the data source links below.
 
