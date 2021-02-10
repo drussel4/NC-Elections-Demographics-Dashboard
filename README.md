@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/drussel4/NC-Elections-Demographics-Dashboard/HEAD)
+
 # NC-Elections-Demographics-Dashboard
 This project contains a dashboard allowing the user to analyze N.C. county-level voting results alongside demographic trends. The dashboard contains three exhibits and a table. The first exhibit is a map, which demonstrates the county level voting patterns, with more Democratic voting areas shown in blue and Republican shown in red. The map can also be set to view voting counts and participation. Hovering over the map shows demographic values, which can be used to contextualize voting patterns. The second exhibit is a bar chart, which showcases Dem vs. Rep voting for the largest counties in the state (having 100,000+ residents). The third exhibit is a bar chart, visualizing demographic trends for the largest counties.  All data is downloadable and verifiable via the data source links below.
 
