@@ -1,9 +1,13 @@
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/drussel4/NC-Elections-Demographics-Dashboard/HEAD)
 
 # NC-Elections-Demographics-Dashboard
-This project contains a dashboard allowing the user to analyze N.C. county-level voting results alongside demographic trends. The dashboard contains three exhibits and a table. The first exhibit is a map, which demonstrates the county level voting patterns, with more Democratic voting areas shown in blue and Republican shown in red. The map can also be set to view voting counts and participation. Hovering over the map shows demographic values, which can be used to contextualize voting patterns. The second exhibit is a bar chart, which showcases Dem vs. Rep voting for the largest counties in the state (having 100,000+ residents). The third exhibit is a bar chart, visualizing demographic trends for the largest counties.  All data is downloadable and verifiable via the data source links below.
 
-![dashboard_wake_up](https://github.com/drussel4/NC-Elections-Demographics-Dashboard/blob/master/img/dashboard_wake_up.png?raw=true)
+The dashboard is hosted on binder. To launch, click the Binder button and allow 30+ seconds to load, then click <i>Web-Dashboard.ipynb</i>. Finally, <i>Cell > Run All</i> in the toolbar to launch the dashboard.
+
+This project contains a dashboard allowing the user to analyze county-level voting results alongside demographic trends. Use the inputs to specify the data you want to return, then click <i>Update</i> to generate maps, charts, and tables. These demonstrate county level voting patterns and demographic trends. Counties voting more Democratic are shown in blue and Republican are shown in red. Hover over the map uncover demographic data. The bar charts showcases the largest counties in the state (having 100,000+ residents). In the <i>Table</i> tab, use the controls to filter the tables in place. All data is downloadable and verifiable via the data source links below.
+
+![dashboard_updated](https://github.com/drussel4/NC-Elections-Demographics-Dashboard/blob/master/img/dashboard_updated.png?raw=true)
 
 ## Usage
 The program accomplishes four main things: (1) reads in election results data from [North Carolina State Board of Elections (NCSBE)](https://www.ncsbe.gov/results-data/election-results/historical-election-results-data#by-precinct) text files, (2) queries data from the [American Community Survey (ACS)](https://www.census.gov/programs-surveys/acs) API, (3) joins those data sets at a county level, and (4) builds an ipywidgets-powered dashboard to interrogate the data.
