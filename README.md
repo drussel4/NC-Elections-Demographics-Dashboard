@@ -6,7 +6,7 @@ The dashboard is hosted on binder. To launch, click the Binder button and allow 
 
 This project contains a dashboard allowing the user to analyze county-level voting results alongside demographic trends. Use the inputs to specify the data you want to return, then click <i>Update</i> to generate maps, charts, and tables. These demonstrate county level voting patterns and demographic trends. Counties voting more Democratic are shown in blue and Republican are shown in red. Hover over the map uncover demographic data. The bar charts showcases the largest counties in the state (having 100,000+ residents). In the <i>Table</i> tab, use the controls to filter the tables in place. All data is downloadable and verifiable via the data source links below.
 
-![dashboard_updated](https://github.com/drussel4/NC-Elections-Demographics-Dashboard/blob/master/img/dashboard_updated.png?raw=true)
+![NC-Elections-Demographics-Dashboard-GIF](https://github.com/drussel4/NC-Elections-Demographics-Dashboard/blob/master/img/NC-Elections-Demographics-Dashboard-GIF.gif?raw=true)
 
 ## Usage
 The program accomplishes four main things: (1) reads in election results data from [North Carolina State Board of Elections (NCSBE)](https://www.ncsbe.gov/results-data/election-results/historical-election-results-data#by-precinct) text files, (2) queries data from the [American Community Survey (ACS)](https://www.census.gov/programs-surveys/acs) API, (3) joins those data sets at a county level, and (4) builds an ipywidgets-powered dashboard to interrogate the data.
